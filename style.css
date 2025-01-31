@@ -1,0 +1,107 @@
+*{
+   padding: 0;
+   margin: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.main{
+        width: 100%;
+        min-height: 100vh;
+        background-color:#977DFF;
+        display:flex;
+}
+.container{
+    height:500px;
+    width:350px;
+    margin:200px;
+    margin-top: 0;
+    border-radius:10px ;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background:#f5f2f2;
+    box-shadow: 5px 5px 2px;
+}
+.calculator{
+    padding:20px;
+    border-radius: 10px;
+     border: none;
+}
+
+ form input{
+   
+    outline:0;
+    height:50px;
+    width:60px;
+    box-shadow: 5px 5px 2px transparent ;
+    background:transparent;
+    font-size:20px;
+    color:black;
+    
+    margin-bottom: 7px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    height:50px;
+   
+}
+form .display input{
+    text-align: end;
+    flex:1;
+    font-size:bold;
+    
+    box-shadow:2px 2px 1px rgba(0, 0, 0, 0.353) ;
+    border: transparent;
+}
+form input.equal{
+    width:188px;
+    color: white;
+    background-color: orangered;
+}
+ .calculator input{
+    background-color: rgb(255, 255, 255);
+    box-shadow:2px 2px 1px rgba(0, 0, 0, 0.355) ;
+    font-weight: 200;
+    font-size:30px;
+    border-radius: 5px;
+    border: transparent;
+
+}
+.container2{
+    height:500px;
+    width:350px;
+    margin:200px;
+    margin-top: 0;
+    border-radius:10px ;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background:rgb(18, 18, 19);
+    box-shadow: 5px 5px 2px;
+}
+.calculator2 input{
+    background-color: rgb(19, 15, 15);
+    box-shadow:2px 2px 1px rgba(0, 0, 0, 0.777) ;
+    font-weight: 200;
+    font-size:30px;
+    border-radius: 5px;
+    color:aliceblue;
+}
+form .display2{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    background-color: rgb(34, 31, 31);
+    height:50px;
+}
+form .display2 input{
+    text-align: end;
+    flex:1;
+    font-size:bold;
+    
+    box-shadow:2px 2px 1px rgba(0, 0, 0, 0) ;
+    border:white;
+}
